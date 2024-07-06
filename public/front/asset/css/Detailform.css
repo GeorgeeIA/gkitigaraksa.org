@@ -1,0 +1,55 @@
+.form-group {
+  margin-bottom: 15px; /* Jarak antara setiap form-group */
+}
+
+.form-group label {
+  width: 400px; /* Lebar label */
+}
+
+.form-group input {
+  flex: 1; /* Agar input menempati sisa ruang yang tersedia */
+}
+
+#form-pilih {
+  width: 690px;
+}
+
+@media (max-width: 767px) {
+  .custom-card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .custom-card {
+    margin: 0 10px 15px 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #form-pilih {
+    width: 830px;
+  }
+}
+
+@media (max-width: 991px) {
+  .form-group label {
+    width: 250px; /* Lebar label */
+  }
+
+  #form-pilih {
+    width: 470px;
+  }
+}
+
+@media (max-width: 767px) {
+  .form-group {
+    flex-direction: column; /* Mengubah tata letak menjadi satu kolom pada perangkat seluler */
+    align-items: stretch; /* Memastikan elemen-elemen memanjang sepenuhnya */
+  }
+
+  .form-group label {
+    width: auto; /* Lebar label otomatis agar responsif pada perangkat seluler */
+    margin-bottom: 5px; /* Jarak antar form-group pada perangkat seluler */
+  }
+}

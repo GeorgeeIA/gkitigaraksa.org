@@ -1,0 +1,28 @@
+/* Gaya teks responsif */
+@media (max-width: 530px) {
+  /* Pilih semua elemen dengan kelas card-text */
+  .card-text {
+    font-size: 14px; /* Ukuran font untuk layar kecil */
+  }
+}
+
+@media (max-width: 390px) {
+  /* Pilih semua elemen dengan kelas card-text */
+  .card-text {
+    font-size: 12px; /* Ukuran font untuk layar kecil */
+  }
+}
+
+@media (max-width: 354px) {
+  /* Pilih semua elemen dengan kelas card-text */
+  .card-text {
+    font-size: 10px; /* Ukuran font untuk layar kecil */
+  }
+}
+
+@media (max-width: 318px) {
+  /* Pilih semua elemen dengan kelas card-text */
+  .card-text {
+    font-size: 8px; /* Ukuran font untuk layar kecil */
+  }
+}
